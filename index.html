@@ -1,39 +1,139 @@
-<!-- This is an html page for the 12:30 section of JNL221.
-This page will be used at times for explaining homework instructions
-or displaying student work. -->
+<!-- Complete this worksheet in html and css. Instructions are as comments; you may use reference_sheet.html and the internet to jog your memory on html tags and css. -->
+<!-- You may work with a partner on this. -->
 
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Foundations Of Data And Digital Journalism</title>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
-	<link type="text/css" rel="stylesheet" href="../index.css" />
-</head>
+    <head>
+        <meta charset="utf-8">
+        <title>Basic HTML</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        
+        <style>
+        
+        p {
+            color: #a9a9a9;
+            font-size: 16px;
+            font-family: 'Open Sans', serif;
+            width: 50%;
+        }
 
-<!-- DO NOT EDIT ANYTHING IN THE HEAD TAG ^ -->
+        #bargraph {
+            border: 1px solid gray;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            width: 25%;
+        }
+        .bar_label {
+            color: red;
+        }
+        #longest {
+            width: 300px;
+            height: 10px;
+            background: gray;
+            border: 1px solid red;
+        }
+        #longer {
+        }
+        #long {
+        }
 
-<body>
-	
-	<!-- Intro row -->
-	<div id="intro" class="col-sm-12">
-		<h1> <!-- /// EDITABLE ONE /// --> JNL221, Spring 2022</h1>
-		<h4> <!-- /// EDITABLE TWO /// --> Whitney Wilson</h4>
-	</div>
+        </style>
+    </head>
+    
+    <body>
 
-	<div class="container content">
-		<p> <!-- /// EDITABLE THREE /// --> My dog's name is Kevin.</p>
-	</div>
+    <h1>A little bit about me!</h1>
+    
+    <h2>I am from Houston, Texas and majoring in Broadcast and Digital Journalism at Syracuse University. I enjoy yoga and spending time with my friends and family. I have nine sibilings!</h2>
+    <!-- Include: a brief intro to yourself -- where you're from, what you like to do for fun, what you're studying, and who your community or family is. -->
+    <!-- Tags to use: <p>, <strong>, <i> -->
+        <p> <strong> <i>My name is Whitney Wilson, and I am from Houston, Texas. I am 21 and a sophmore at Syracuse University. </strong></i></p>
+    
+
+    <h2>My handles</h2>
+    <!-- Include: at least two handles for your social media accounts -->
+    <!-- Tags to use: <p>, <a> -->
+
+    <p> <a href="https://www.instagram.com/whit__wilson/"> Instagram: @whit__wilson</a> and <a href="https://www.facebook.com/whitney.wilson.5895"> Facebook: Whitney Wilson</a></p>
+
+    
+    <h2> ~ Challenge: Why is my text maroon? ~</h2>
+    <!-- Challenge! The text in your p tags is currently maroon. Figure out why and make it dark gray, using a hex code. (Hint: use google to find a hex code for a dark gray) -->
 
 
-  	<!-- About Row -->
-	<div class="row">
-		<div id="end" class="col-sm-12">
-			<h4> <!-- /// EDITABLE FOUR /// --> made by github pages with montserrat and open sans, at newhouse school of communications.</h4>
-		</div>
-	</div>
+    <h2>My favorite meme</h2>
+    <!-- Include: a screenshot of an internet meme that you like -->
+    <!-- Tags to use: <img> -->
+    <!-- Hint! Use 'reference_sheet.html', which you downloaded with this file, to remember how to include an image. -->
+    <p> <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F621215342338456189%2F&psig=AOvVaw28GAFg7Kg0fIJLxRj3524m&ust=1649709973765000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPjv9feuivcCFQAAAAAdAAAAABAJ"></p>
 
-</body>
+    
+    <h2>Why I'm a great student</h2>
+    <!-- Include: an unordered list -->
+    <!-- Tags to use: <ul>, <li>, <strong> -->
+    <ul>
+        <li>Time Management</li>
+        <li>Handwritten Notes</li>
+        <li>Attends Office Hours</li>
+        <li>Listens In Class</li>
+        <li>Completes Assignments</li>
+    </ul>
+
+    
+    <h2>Top 3 most famous people from my hometown</h2>
+    <!-- Include: an ordered list -->
+    <!-- Tags to use: <ol>, <li>, <a> -->
+    <ol>
+        <li>Beyonce</li>
+        <li>Michael Strayhan</li>
+        <li>Jennifer Garner</li>
+    </ol>
+
+
+    <h2> ~ Challenge: Read my poetry ~</h2>
+    <!-- Challenge! Figure out what a <br> tag is. Write a short poem about your college experience so far, using only one <p> tag and at least two <br> tags. -->
+    <p> <br> College with Covid was no fun <br> But now that the pandemic and winter are done <br> We can all rejoyce in the sun. </p>
+
+    
+    <h2>This is one of my favorite quotes</h2>
+    <!-- Include: a quote from a book -- quote should be in italics and gray, title of source should be in an <h3> tag -->
+    <!-- Tags to use: <h3>, <p> with an id named 'quote' that is styled in the <style> section -->
+    <p>  <h3> The Picture of Dorian Grey</h3>
+        <p id="quote"> </p>
+        <p><i>“Nowadays people know the price of everything and the value of nothing.”</i></p>
+        <style type="text/css">
+         color: light gray;
+        </style
+    </p>
+   
+    
+
+
+    <h2>These are more of my favorite books</h2>
+    <!-- Include: an unordered list of at least three books, list items should have a border -->
+    <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section -->
+    <div style="border: 2px solid red; width: 50%;">
+        <p> <ul>
+            <li> <p class="book">The Subtle Art of Not Giving a F*ck</p> </li>
+            <li> <p class="book">Wild: From Lost to Found on the Pacific Crest Trail</p> </li>
+            <li><p class="book">Where the Wild Things Ar</p> </li>
+        </ul> </p>
+    </div>
+
+
+
+    <h3>~ Challenge: A very simple bar graph ~</h3>
+    <!-- Challenge! Add CSS styles to '#longer' and '#long' to make the bar graph look like it's ordered from longest to shortest. You may also change the h4 text and the p text to make this simple bar chart reflect real (or fake) data. -->
+
+    <div id="bargraph">
+        <h4>Length of bars</h4>
+        <p class="bar_label">Longest</p>
+        <div id="longest"></div>
+        <p class="bar_label">Longer</p>
+        <div id="longer"></div>
+        <p class="bar_label">Long</p>
+        <div id="long"></div>
+    </div>
+     
+    </body>
 </html>
