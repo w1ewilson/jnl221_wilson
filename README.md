@@ -1,2 +1,1 @@
-# jnl221_wilson
-Whitney's JNL221 assignments page
+This repo will be used to practice some basic HTML and CSS in class.
