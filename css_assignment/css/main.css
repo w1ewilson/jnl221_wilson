@@ -1,1 +1,74 @@
-/*Delete me and start writing your CSS here. Don't forget to save as you go!*/
+body {
+	margin: 0px;
+}
+
+.site_banner {
+	border-top: solid black 8px;
+	border-bottom: solid black 1px;
+	padding-top: 20px;
+ 	padding-bottom: 20px;
+ 	padding-left: 20%;
+ 	padding-right: 20%;
+ 	text-align: center;
+}
+
+img {
+	width: 330px;
+}
+
+h3 {
+	font-family: Basier, sans-serif;
+	font-size: bold 14px;
+	color: #de2f23;
+	letter-spacing: 1px;
+}
+
+.article {
+	max-width: 900px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.story_header {
+	font-family: Basier, sans-serif;
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 46px;
+	margin-bottom: 0px;
+}
+
+.byline {
+	font-size: bold;
+}
+
+.story_copy {
+	font-family: Pensum, sans-serif;
+	font-size: 20px;
+}
+
+.photo {
+	width: 100%;
+}
+
+.photo_caption {
+	color: gray;
+	font-size: 14px;
+	margin-top: 0%;
+}
+
+.footer {
+	font-family: Basier, sans-serif;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.footer_info {
+	color: gray;
+	font-size: 14px;
+}
+
+.href {
+	color: black;
+}
